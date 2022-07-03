@@ -2139,7 +2139,7 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 120%;
+			border-radius: 150%;
 		}
 
 			.image.avatar:before {
@@ -2147,8 +2147,8 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 120%;
-				width: 120%;
+				border-radius: 150%;
+				width: 150%;
 			}
 
 /* List */
@@ -2635,6 +2635,7 @@ input, select, textarea {
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
+			font-size: 1.6em;
 		}
 
 		#header h1 {
@@ -2646,7 +2647,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1.5em 0;
-			width: 7.25em;
+			width: 8.25em;
 		}
 
 /* Footer */

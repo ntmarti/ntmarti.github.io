@@ -2385,7 +2385,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #ffffff;
 			}
 
 		table td {
@@ -2393,7 +2393,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #787878;
+			color: #ffffff;
 			font-size: 0.9em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;

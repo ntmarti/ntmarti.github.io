@@ -2545,9 +2545,9 @@ input, select, textarea {
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #e7e7e7 !important;
+			background-color: #ffffff !important;
 			border-color: #e7e7e7 !important;
-			color: #b2b2b2 !important;
+			color: #ffffff !important;
 			cursor: default;
 		}
 

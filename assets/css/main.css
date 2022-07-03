@@ -2380,7 +2380,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #ffffff;
 			}
 
 		table td {
@@ -2396,11 +2396,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: solid 2px #ffffff;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #ffffff;
 		}
 
 		table.alt {
@@ -2445,7 +2445,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #ffffff;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2472,7 +2472,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(73, 191, 157, 0.1);
+			background-color: rgb(255, 255, 255);
 			border-color: #49bf9d;
 			color: #49bf9d !important;
 		}

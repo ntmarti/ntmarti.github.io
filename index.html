@@ -1,145 +1,547 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Nikolai Opdan</title>
-		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Nikolai Opdan is a norwegian mathematician and Doctoral research fellow at the University of Oslo. This is my personal webpage.">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<meta http-equiv="Content-Language" content="en">
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jenny &amp; Nikolai — Vi skal gifte oss</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ivory: #FAF6EE;
+    --blush: #E7D7C6;
+    --forest: #1E3226;
+    --forest-2: #16241C;
+    --gold: #B08A4E;
+    --gold-light: #D9BD8C;
+    --ink: #2A2721;
+  }
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<br /><br /> 
-					<a class="image avatar"><img src="images/avatar2.jpeg" alt="" /></a>
-					<h1><strong>Nikolai Opdan</strong></h1><strong>
-					<br />I am a PhD student in mathematics 
-					<br />at the University of Oslo. 
-					<br />
-					<br />My research interest are in 
-					<br />Motivic homotopy theory,  
-					<br />Logarithmic algebraic geometry, 
-					<br />and Higher category theory.</strong>
-				</div>
-			</header>
+  *{ margin:0; padding:0; box-sizing:border-box; }
 
-		<!-- Main -->
-			<div id="main">
+  html{ scroll-behavior:smooth; }
 
-			<!-- One -->
-				<section id="one">
-					<header class="major">
-						<h2><strong>Nikolai Opdan's Home Page</strong> </h2>
-					</header>
-					<p><h3><strong>Contact:</strong></h3>
-						Email: ntmarti-at-math.uio.no <br /> 
-						Office: NHA B1104 <br /> <br /> 
-						The <a href="https://www.mn.uio.no/math/english/research/groups/geometry-topology/">Geometry and Topology</a> group at UiO. <br /> 
-						The <a href="https://www.mn.uio.no/math/english/research/projects/emoho/index.html">Equations in Motivic Hopotopy</a> research project at UiO.
-					</p>
-					<a class="image fit"><img src="images/lecture.jpeg" alt="" /></a>
-				</section>
+  body{
+    background: var(--ivory);
+    color: var(--ink);
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
 
-			<!-- Two -->
-				<section id="two">
-					<h2><strong>Research</strong></h2>
-					<h3><strong>Publications</strong></h3>
-					<ul class="a">
-						<li><a href="https://msp.org/obs/2025/6-1/p03.xhtml"> <i> Introduction to Framed Correspondences</i> </a>, <a href="https://msp.org/obs/2025/6-1/"> Motivic Geometry.</a> Vol. 6. No. 1. The Open Book Series. MSP Books and Monographs. 2025. 107–126. Joint with <a href="https://hoyois.app.uni-regensburg.de/"> Marc Hoyois </a>. <br />
-						<li><a href="https://msp.org/obs/2025/6-1/p04.xhtml"> <i> Lectures on the Cohomology of Reciprocity Sheaves </i> </a>, <a href="https://msp.org/obs/2025/6-1/"> Motivic Geometry.</a> Vol. 6. No. 1. The Open Book Series. MSP Books and Monographs. 2025. 127–163. Joint with <a href="https://www2.math.uni-wuppertal.de/~ruelling/"> Kay Rülling </a>. <br />
-					</ul>
-					<h3><strong>In preperation</strong></h3>
-					<ul class="a">
-						<li><i><a href="https://www.mn.uio.no/math/personer/vit/ntmarti/modulesandslices.pdf"> Modules and slices in logarithmic motivic homotopy theory</i>.</a> </li>
-						<li><i><a href="https://www.mn.uio.no/math/personer/vit/ntmarti/loghlogv.pdf">The logarithmic h- and v-topologies</i>.</a> Joint with Doosung Park and Paul Arne Østvær. </li>
-						<li><i>Log motivic functors</i>. </li>
-						<li><i>Enriched excisive functors and stable homotopy categories</i>. Joint with Hadrian Heine, Giuseppe Leoncini and Paul Arne Østvær. </li>
-					</ul>
-					
-					<h3><strong>Misc</strong></h3>
-					<ul class="a">
-						<li><a href="https://www.duo.uio.no/bitstream/handle/10852/91227/Opdan_Thesis.pdf?sequence=1&isAllowed=y">
-						<i>Logarithmic motives with compact support</i></a>.
-						Master thesis (2021).
-						</li>
-						<li><a href="https://www.mn.uio.no/math/personer/vit/ntmarti/isogenybasedcryptography.pdf">
-						<i>Attacking SIKE </i></a>.
-						A Survey of known attacks against the proposed post-crypto protocol SIKE (2021). 
-						<br />
-						<i> Update: SIKE is insecure after a successful (classical) attack was published in July 2022. </i>
-						</li>
-					<!-- <h3><strong>Preprints</strong></h3> -->
-				</section>
+  h1, h2, h3, .display{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
 
-				<!-- Three -->
-				<section id="three">
-					<h2>Short CV</h2>
-					<ul class="a">
-						<li><b>Doctoral Research Fellow</b> in Mathematics, Geometry and Topology, University of Oslo, March 2022-June 2025</li>
-						<li><b>Research assistant</b>, University of Oslo, December 2021-February 2022.</li>
-						<li><b>NSM Summer internship</b>, Post-Quantum cryptography, June-August 2021. </li>
-						<li><b>MSc. in Mathematics</b>, Algebraic geometry and algebraic topology, University of Oslo, 2020-2021.</li>
-						<li><b>BSc. in Mathematics</b>, Informatics and Technology, University of Oslo, 2017-2020.</li>
-					</ul>
-					<ul class="actions">
-						<li><a href="https://www.mn.uio.no/math/personer/vit/ntmarti/opdancv.pdf" class="button">Full CV</a></li>
-					</ul>
-				</section>
+  .eyebrow{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+  }
 
-				<!-- Four -->
-				<section id="four">
-					<h2>Events</h2>
-					<!-- <strong>Upcomming:</strong> -->
-					<strong>Past events:</strong>
-					<ul class="a">
-						<li><a href="https://iwoat.github.io/#Upcoming"> IWoAT 2024 summer school on motivic homotopy theory</a>, Shanghai, 23–27 June 2024.</li>
-						<li><a href="https://conferences.cirm-math.fr/2024-calendar.html"> Motivic homotopy in interaction</a>, CIRM Marseilles, 4-8 November 2024.</li>
-						<li><a href="https://www.mn.uio.no/math/english/research/groups/algebra/events/conferences/stew/index.html"> Oslo Stability and Enumerative Geometry Workshop 2023</a>, Oslo, 11-15 December 2023.</li>
-						<li><a href="https://sites.google.com/view/wsumht24 https://sites.google.com/view/motivesinmainz/"> Motives in Mainz</a>, Mainz, 18-22 March 2024.</li>
-						<li><a href="https://www.mn.uio.no/math/english/research/projects/granddrm/events/conferences/oka-theory-and-complex-geometry-2023/index.html"> Oka Theory and Complex Geometry Conference</a>, Sophus Lie center, 19-23 June 2023.</li>
-						<li><a href="https://www.unimi.it/it"> Research visit</a>, University of Milan, 7-15 May 2023.</li>
-						<li><a href="https://sites.google.com/view/cartan-geometry-geilo2023/home"> Cartan Geometry and Related Topics</a>, Geilo, 5-9 March 2023.</li>
-						<li><a href="https://www.nldl.org/home"> Northern Lights Deep Learning Conference 2023</a>, Tromsø, 9-13 January 2023.</li>
-						<li><a href="https://darmstadt-2022.algebraic-geometry.de"> Arithmetic Algebraic Geometry conference</a>, Darmstadt, 3-7 October 2022.</li>
-						<li>Organizer of 
-							<a href="https://sites.google.com/view/motivicgeometry-conference/home"> Motivic Geometry Conference</a>, University of Oslo, 8-12  August 2022.</li>
-						<li><a href="https://motivic-invariants-2022.esaga.net"> Harnessing Motivic Invariants</a>, Essen, 27 June - 1 July 2022.</li>
-						<li><a href="https://www.unimi.it/it"> Research visit</a>, University of Milan, April-May 2022.
-						</li>
-						<li><a href="https://sites.google.com/view/trivialcanonicalbundle"> Arithmetic and geometry of varieties with trivial canocical bundle</a>, Oslo, 12-14 December 2021.</li>
-						<li><a href="https://sites.google.com/view/summer-school-motivic/home"> Motivic Summer School and Conference on The Six-Functor Formalism and Motivic Homotopy Theory</a>, University of Milan, September 20-24 2021.</li>
-						<li><a href="https://cas.oslo.no/research-groups/motivic-geometry-article3332-827.html"> Motivic Geometry project.</a>, Center for Advanced Studies, Oslo, Spring semester 2021.</li>	
-					</ul>
-					<br /><br /> 
-				</section>
-		</div>
+  a{ color: inherit; }
 
+  .container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.75rem;
+  }
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/nikolaiopdan" class="fab fa-linkedin-in"><span class="label"></span></a></li>
-						<li><a href="https://github.com/ntmarti" class="icon brands fa-github"><span class="label">Github</span></a ></li>
-						<li><a href="mailto: ntmarti@math.uio.no" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li><strong>&copy; Nikolai Opdan</strong></li>
-					</ul>
-				</div>
-			</footer>
+  /* ---------- Motif: monogram ---------- */
+  .monogram{
+    width: 92px;
+    height: 92px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.9rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    position: relative;
+  }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  /* ---------- Hero ---------- */
+  .hero{
+    min-height: 100svh;
+    background: radial-gradient(120% 100% at 50% 0%, var(--forest) 0%, var(--forest-2) 100%);
+    color: var(--ivory);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6rem 1.5rem;
+    position: relative;
+  }
 
-	</body>
+  .hero .monogram{ color: var(--gold-light); margin-bottom: 2rem; }
+
+  .hero .eyebrow{
+    color: var(--gold-light);
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    animation: riseIn 1s ease forwards 0.1s;
+  }
+
+  .hero .names{
+    font-size: clamp(3.2rem, 9vw, 6.5rem);
+    line-height: 1.05;
+    font-weight: 400;
+    opacity: 0;
+    animation: riseIn 1.1s ease forwards 0.35s;
+  }
+
+  .hero .names em{
+    font-style: italic;
+    font-weight: 300;
+    color: var(--gold-light);
+    display: inline-block;
+    padding: 0 0.25em;
+  }
+
+  .hero .rule{
+    width: 64px;
+    height: 1px;
+    background: var(--gold);
+    margin: 2rem 0;
+    opacity: 0;
+    animation: growIn 1s ease forwards 0.75s;
+    transform-origin: center;
+  }
+
+  .hero .date{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+    letter-spacing: 0.06em;
+    opacity: 0;
+    animation: riseIn 1s ease forwards 0.95s;
+  }
+
+  .hero .venue{
+    margin-top: 0.6rem;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    color: var(--blush);
+    opacity: 0;
+    animation: riseIn 1s ease forwards 1.1s;
+  }
+
+  .scroll-cue{
+    position: absolute;
+    bottom: 2.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--gold-light);
+    opacity: 0;
+    animation: riseIn 1s ease forwards 1.4s;
+  }
+  .scroll-cue span{ font-size: 0.65rem; letter-spacing: 0.28em; text-transform: uppercase; }
+  .scroll-cue .line{ width: 1px; height: 34px; background: currentColor; animation: pulse 2.2s ease-in-out infinite; }
+
+  @keyframes riseIn{
+    from{ opacity: 0; transform: translateY(18px); }
+    to{ opacity: 1; transform: translateY(0); }
+  }
+  @keyframes growIn{
+    from{ opacity: 0; transform: scaleX(0); }
+    to{ opacity: 1; transform: scaleX(1); }
+  }
+  @keyframes pulse{
+    0%, 100%{ opacity: 0.35; }
+    50%{ opacity: 1; }
+  }
+
+  /* ---------- Reveal on scroll ---------- */
+  .reveal{
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+  }
+  .reveal.is-visible{
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ---------- Section shell ---------- */
+  section{
+    padding: 6.5rem 0;
+    position: relative;
+  }
+  .section-ivory{ background: var(--ivory); }
+  .section-blush{ background: var(--blush); }
+  .section-forest{ background: var(--forest); color: var(--ivory); }
+
+  .section-head{
+    text-align: center;
+    margin-bottom: 3.5rem;
+  }
+  .section-head .eyebrow{ color: var(--gold); margin-bottom: 0.9rem; }
+  .section-forest .section-head .eyebrow{ color: var(--gold-light); }
+  .section-head h2{
+    font-size: clamp(2.1rem, 4.5vw, 2.9rem);
+    font-weight: 500;
+  }
+
+  /* ---------- Our Story ---------- */
+  .story{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.5rem;
+    align-items: center;
+  }
+  .story-photo{
+    aspect-ratio: 4/5;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .story-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .story p{
+    margin-bottom: 1.2rem;
+    font-size: 1.05rem;
+    color: #4a473f;
+  }
+  .story p:last-child{ margin-bottom: 0; }
+
+  /* ---------- Timeline (Event Details) ---------- */
+  .timeline{
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .tl-item{
+    display: grid;
+    grid-template-columns: 110px 1px 1fr;
+    gap: 1.75rem;
+    padding-bottom: 3rem;
+    position: relative;
+  }
+  .tl-item:last-child{ padding-bottom: 0; }
+  .tl-time{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.35rem;
+    text-align: right;
+    padding-top: 0.15rem;
+    color: var(--gold-light);
+  }
+  .tl-line{
+    background: rgba(217, 189, 140, 0.35);
+    position: relative;
+  }
+  .tl-line::before{
+    content: "";
+    position: absolute;
+    top: 0.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--gold-light);
+  }
+  .tl-content h3{
+    font-size: 1.55rem;
+    font-weight: 500;
+    margin-bottom: 0.35rem;
+  }
+  .tl-content p{
+    font-size: 0.95rem;
+    color: var(--blush);
+    max-width: 42ch;
+  }
+
+  /* ---------- Registry ---------- */
+  .registry-copy{
+    max-width: 60ch;
+    margin: 0 auto 3rem;
+    text-align: center;
+    color: #4a473f;
+    font-size: 1.05rem;
+  }
+  .registry-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .registry-card{
+    background: var(--ivory);
+    border: 1px solid rgba(176, 138, 78, 0.35);
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    border-radius: 4px;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+  }
+  .registry-card:hover{
+    border-color: var(--gold);
+    transform: translateY(-4px);
+  }
+  .registry-card h3{
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  .registry-card p{
+    font-size: 0.85rem;
+    color: #6b6759;
+    margin-bottom: 1.25rem;
+  }
+  .registry-card a{
+    display: inline-block;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 4px;
+  }
+
+  /* ---------- Travel ---------- */
+  .travel-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.75rem;
+  }
+  .travel-card{
+    padding: 2.25rem;
+    background: var(--ivory);
+    border-radius: 4px;
+  }
+  .travel-card .eyebrow{ color: var(--gold); margin-bottom: 0.6rem; }
+  .travel-card h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+  }
+  .travel-card p{ color: #55524a; font-size: 0.92rem; }
+  .travel-card .meta{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    color: var(--gold);
+  }
+
+  /* ---------- Footer ---------- */
+  footer{
+    background: var(--forest-2);
+    color: var(--blush);
+    text-align: center;
+    padding: 4.5rem 1.5rem 3rem;
+  }
+  footer .monogram{ color: var(--gold-light); margin: 0 auto 1.5rem; }
+  footer .names{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
+  }
+  footer .thanks{
+    font-size: 0.85rem;
+    max-width: 46ch;
+    margin: 0 auto 1.75rem;
+    opacity: 0.8;
+  }
+  footer .fine{
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    opacity: 0.5;
+  }
+
+  @media (max-width: 720px){
+    .story{ grid-template-columns: 1fr; }
+    .story-photo{ order: -1; aspect-ratio: 16/10; }
+    .registry-grid{ grid-template-columns: 1fr; }
+    .travel-grid{ grid-template-columns: 1fr; }
+    .tl-item{ grid-template-columns: 78px 1px 1fr; gap: 1.1rem; }
+    section{ padding: 4.5rem 0; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *, .hero .eyebrow, .hero .names, .hero .rule, .hero .date, .hero .venue, .scroll-cue, .reveal{
+      animation: none !important;
+      transition: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="monogram">J&nbsp;N</div>
+  <p class="eyebrow">Sammen med våre familier</p>
+  <h1 class="names">Jenny <em>&amp;</em> Nikolai</h1>
+  <div class="rule"></div>
+  <p class="date">Lørdag 19. juni 2027, kl. 13:30</p>
+  <p class="venue">Tønsberg kirke</p>
+
+  <div class="scroll-cue">
+    <span>Scroll</span>
+    <div class="line"></div>
+  </div>
+</section>
+
+<!-- OUR STORY -->
+<section class="section-ivory" id="story">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Endelig</p>
+      <h2>Vi skal gifte oss</h2>
+    </div>
+
+    <div class="story">
+      <div class="story-photo reveal">
+        <img src="jenny-nikolai.jpeg" alt="Jenny og Nikolai på en konsert, med hendene formet som et hjerte foran linsen">
+      </div>
+      <div class="reveal">
+        <p>Vi gleder oss enormt til å gifte oss, og vi vil så gjerne dele dagen med akkurat dere.</p>
+        <p>Her på siden finner dere alt dere trenger å vite om dagen — tid og sted for vielsen, hvor festen skal være, og litt praktisk informasjon underveis.</p>
+        <p>Vi kan ikke vente med å se dere 19. juni!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRAKTISK INFORMASJON -->
+<section class="section-forest" id="detaljer">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Lørdag 19. juni 2027</p>
+      <h2>Praktisk informasjon</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-time">13:00</div>
+        <div class="tl-line"></div>
+        <div class="tl-content">
+          <h3>Gjestene ankommer</h3>
+          <p>Vi ber om at dere er på plass i Tønsberg kirke senest kl. 13:00, slik at alle rekker å sette seg før vielsen starter.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-time">13:30</div>
+        <div class="tl-line"></div>
+        <div class="tl-content">
+          <h3>Vielse</h3>
+          <p>Vielsen finner sted i Tønsberg kirke kl. 13:30.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-time">Ettermiddag</div>
+        <div class="tl-line"></div>
+        <div class="tl-content">
+          <h3>Fotografering</h3>
+          <p>Etter vielsen tar vi noen bilder med brudefølget, mens resten av gjestene kan forflytte seg videre til festlokalet.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-time">Kveld</div>
+        <div class="tl-line"></div>
+        <div class="tl-content">
+          <h3>Middag og fest</h3>
+          <p>Festen holdes på Messehuset i Tønsberg, med middag, taler og dans utover kvelden.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GAVEØNSKER -->
+<section class="section-ivory" id="gaver">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Med takknemlighet</p>
+      <h2>Gaveønsker</h2>
+    </div>
+    <p class="registry-copy reveal">Det at dere kommer og feirer dagen sammen med oss, betyr mer enn noen gave. For dere som likevel ønsker å gi noe, setter vi stor pris på et bidrag til vår felles fremtid.</p>
+
+    <div class="registry-grid reveal">
+      <div class="registry-card">
+        <h3>Bryllupsreisen</h3>
+        <p>Bidra til reisen vi drømmer om etter bryllupet.</p>
+        <a href="#">Les mer</a>
+      </div>
+      <div class="registry-card">
+        <h3>Hjemmet vårt</h3>
+        <p>Til innredning og ting vi trenger i det nye hjemmet.</p>
+        <a href="#">Les mer</a>
+      </div>
+      <div class="registry-card">
+        <h3>Opplevelser</h3>
+        <p>En god middag, en danseleksjon, eller noe annet gøy sammen.</p>
+        <a href="#">Les mer</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REISE OG OVERNATTING -->
+<section class="section-blush" id="reise">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Komme seg dit</p>
+      <h2>Reise og overnatting</h2>
+    </div>
+
+    <div class="travel-grid reveal">
+      <div class="travel-card">
+        <p class="eyebrow">Vielse</p>
+        <h3>Tønsberg kirke</h3>
+        <p>Vielsen finner sted kl. 13:30. Det er gangavstand fra store deler av sentrum, og enkelt å finne parkering i nærheten.</p>
+      </div>
+      <div class="travel-card">
+        <p class="eyebrow">Fest</p>
+        <h3>Messehuset, Tønsberg</h3>
+        <p>Selve festen holdes på Messehuset, en kort tur fra kirken. Vi kommer tilbake med nærmere informasjon om transport mellom kirken og festlokalet.</p>
+      </div>
+      <div class="travel-card">
+        <p class="eyebrow">Overnatting</p>
+        <h3>Hoteller i Tønsberg</h3>
+        <p>Tønsberg har flere gode hotellalternativer sentralt i byen. Vi anbefaler å bestille rom i god tid, gjerne innen våren 2027.</p>
+      </div>
+      <div class="travel-card">
+        <p class="eyebrow">Vær</p>
+        <h3>Juni i Tønsberg</h3>
+        <p>Forvent en fin forsommerdag, men ta gjerne med et lett ytterplagg til utover kvelden.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="monogram">J&nbsp;N</div>
+  <p class="names">Jenny &amp; Nikolai</p>
+  <p class="thanks">Vi gleder oss til å feire denne dagen med dere som betyr mest for oss. Tusen takk for at dere er en del av historien vår.</p>
+  <p class="fine">19. juni 2027 · Tønsberg kirke · Messehuset, Tønsberg</p>
+</footer>
+
+<script>
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+
+</body>
 </html>

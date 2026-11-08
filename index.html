@@ -138,6 +138,7 @@
     letter-spacing: 0.06em;
     opacity: 0;
     animation: riseIn 1s ease forwards 0.95s;
+    padding-bottom: 3.0rem;
   }
 
   .hero .venue{
@@ -244,7 +245,7 @@
     display: grid;
     grid-template-columns: 110px 1px 1fr;
     gap: 1.75rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     position: relative;
   }
   .tl-item:last-child{ padding-bottom: 0; }
@@ -306,11 +307,11 @@
     transform: translateY(-4px);
   }
   .registry-card h3{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
   .registry-card p{
-    font-size: 0.85rem;
+    font-size: 1.0rem;
     color: #6b6759;
     margin-bottom: 1.25rem;
   }
@@ -339,13 +340,28 @@
   .travel-card h3{
     font-size: 1.5rem;
     margin-bottom: 0.6rem;
+    text-align: center;
   }
-  .travel-card p{ color: #55524a; font-size: 0.92rem; }
+  .travel-card p{ color: #55524a; font-size: 0.92rem; text-align: center;}
   .travel-card .meta{
     margin-top: 1rem;
     font-size: 0.8rem;
     letter-spacing: 0.05em;
     color: var(--gold);
+  }
+
+    .gift-photo{
+    max-width: 640px;
+    margin: 0 auto 3rem;
+    aspect-ratio: 16/9;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .gift-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
   /* ---------- Footer ---------- */
@@ -401,7 +417,7 @@
   <h1 class="names"><span class="n1">Jenny</span><em>&amp;</em><span class="n2">Nikolai</span></h1>
   <div class="rule"></div>
   <p class="date">Lørdag 19. juni 2027</p>
-  <p class="venue">Tønsberg Domkirke</p>
+  <!-- <p class="venue">Tønsberg Domkirke</p> -->
 
   <div class="scroll-cue">
     <span>Scroll</span>
@@ -423,7 +439,7 @@
       </div>
       <div class="reveal">
         <p>Vi gleder oss enormt til å gifte oss, og vi vil så gjerne dele dagen med akkurat deg!</p>
-        <p>Her på siden finner du alt du trenger å vite om dagen: Tid og sted for vielsen, hvor festen skal være, tips til bosted og transport og litt praktisk informasjon.</p>
+        <p>Her på siden finner du alt du trenger å vite om dagen: Tid og sted for vielsen, hvor festen skal være, tips til overnatting og litt praktisk informasjon.</p>
         <h3>Gi beskjed til brudeparet om du kommer.</h3>
         <p>Svar ønskes innen 15. april. 
         <p>Gi beskjed om du har noen allergier eller perferanser vi skal ta hensyn til.</p>
@@ -455,7 +471,7 @@
         </div>
       </div>
       <div class="tl-item reveal">
-        <div class="tl-time">14:15</div>
+        <div class="tl-time">14:30</div>
         <div class="tl-line"></div>
         <div class="tl-content">
           <h3>Fotografering</h3>
@@ -523,12 +539,14 @@
 <section class="section-blush" id="reise">
   <div class="container">
     <div class="section-head reveal">
-      <p class="eyebrow">Komme seg hit</p>
+      <!-- <p class="eyebrow">Komme seg hit</p> -->
       <h2>Reise og overnatting</h2>
     </div>
     <p class="registry-copy reveal">Tønsberg domkirke ligger midt i Tønsberg sentrum, og Messehuset 1,5km fra domkirken (29 minutters gange). 
-    <p class="registry-copy reveal">Fra kirken til messehuset kan man gå til Midtløkken (13 minutters gange) og ta bussen til Gressbanen; buss 51 mot Eik-Prestelia eller Buss 2 mot Horten-Holmestrand. Bussen går ca. hvert 10. minutt.</p>
-    <p class="registry-copy reveal">Her er noen forslag til overnattingssteder i Tønsberg sentrum.</p>
+    <p class="registry-copy reveal">Fra kirken til messehuset kan man gå til Midtløkken (13 minutters gange) og ta bussen til Gressbanen; Buss 51 mot Eik-Prestelia eller Buss 2 mot Horten-Holmestrand. Bussen går ca. hvert 10. minutt.</p>
+    <p class="registry-copy reveal">
+      <strong>Her er noen forslag til overnattingssteder i Tønsberg sentrum.</strong><br>
+    </p>
 
   <div class="travel-grid reveal">
     <a href="https://www.strawberryhotels.com/hotels/norway/tonsberg/quality-hotel-tonsberg/"
@@ -568,26 +586,11 @@
       <h2>Gaveønsker</h2>
     </div>
     <p class="registry-copy reveal">Det at du kommer og feirer dagen sammen med oss, betyr mer enn noen gave. For deg som likevel ønsker å gi noe, setter vi stor pris på et bidrag til vår bryllupsreise.</p>
-    <p class="registry-copy reveal">Vår bryllupsreise tar oss til Vico Equense, en liten by i Italia. På dette oppholdet ønsker vi oss blant annet på vinsmaking, kaffekurs og spise middag under sitronene.</p>
+    <p class="registry-copy reveal">Vår bryllupsreise går til Vico Equense, ikke langt fra Amalfikysten i Italia. Vi drømmer om godt vær, soling, bading vinsmaking, kaffekurs og masse is.</p>
     <p class="registry-copy reveal">For andre gaveønsker, kontakt brudeparet.</p>
-    <!-- <div class="registry-grid reveal"> -->
-      <!-- <div class="registry-card">
-        <h3>Bryllupsreisen</h3>
-        <p>Bidra til reisen vi drømmer om etter bryllupet.</p>
-        <a href="#">Les mer</a>
-      </div>
-      <div class="registry-card">
-        <h3>Hjemmet vårt</h3>
-        <p>Til innredning og ting vi trenger i det nye hjemmet.</p>
-        <a href="#">Les mer</a>
-      </div>
-      <div class="registry-card">
-        <h3>Opplevelser</h3>
-        <p>En god middag, en danseleksjon, eller noe annet gøy sammen.</p>
-        <a href="#">Les mer</a>
-      </div>
-    </div>
-  </div> -->
+    <figure class="gift-photo reveal">
+      <img src="vico-equense.jpg" alt="Vico Equense ved kysten sør for Napoli" onerror="this.closest('figure').style.display='none'">
+    </figure>
 </section>
 
 <!-- FOOTER -->

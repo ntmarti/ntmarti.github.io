@@ -230,11 +230,16 @@
     display: block;
   }
   .story p{
-    margin-bottom: 1.2rem;
-    font-size: 1.05rem;
+    margin-bottom: 1.3rem;
+    font-size: 1.2rem;
     color: #4a473f;
   }
   .story p:last-child{ margin-bottom: 0; }
+  .story h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 0.35rem;
+  }
 
   /* ---------- Timeline (Event Details) ---------- */
   .timeline{
@@ -263,7 +268,7 @@
   .tl-line::before{
     content: "";
     position: absolute;
-    top: 1.1rem;
+    top: 1.3rem;
     left: 50%;
     transform: translateX(-50%);
     width: 9px; height: 9px;
@@ -271,13 +276,13 @@
     background: var(--gold-light);
   }
   .tl-content h3{
-    font-size: 1.55rem;
+    font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 0.35rem;
+    color: var(--blush);
   }
   .tl-content p{
-    font-size: 0.95rem;
-    color: var(--blush);
+    font-size: 1.2rem;
     max-width: 42ch;
   }
 
@@ -307,17 +312,17 @@
     transform: translateY(-4px);
   }
   .registry-card h3{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
   }
   .registry-card p{
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     color: #6b6759;
     margin-bottom: 1.25rem;
   }
   .registry-card a{
     display: inline-block;
-    font-size: 0.7rem;
+    font-size: 1.0rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-decoration: none;
@@ -338,14 +343,14 @@
   }
   .travel-card .eyebrow{ color: var(--gold); margin-bottom: 0.6rem; }
   .travel-card h3{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 0.6rem;
     text-align: center;
   }
   .travel-card p{ color: #55524a; font-size: 0.92rem; text-align: center;}
   .travel-card .meta{
     margin-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     letter-spacing: 0.05em;
     color: var(--gold);
   }
@@ -362,6 +367,18 @@
     height: 100%;
     object-fit: cover;
     display: block;
+  }
+
+  .spleis-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 30px auto;
+  }
+
+  .spleis-container iframe {
+    max-width: 100%;
+    border: none;
   }
 
   /* ---------- Footer ---------- */
@@ -432,7 +449,6 @@
       <p class="eyebrow">Endelig</p>
       <h2>Vi gifter oss</h2>
     </div>
-
     <div class="story">
       <div class="story-photo reveal">
         <img src="jenny-nikolai.jpeg" alt="Jenny og Nikolai på en konsert, med hendene formet som et hjerte foran linsen">
@@ -442,7 +458,7 @@
         <p>Her på siden finner du alt du trenger å vite om dagen: Tid og sted for vielsen, hvor festen skal være, tips til overnatting og litt praktisk informasjon.</p>
         <h3>Gi beskjed til brudeparet om du kommer.</h3>
         <p>Svar ønskes innen 15. april. 
-        <p>Gi beskjed om du har noen allergier eller perferanser vi skal ta hensyn til.</p>
+        <p>Gi også beskjed dersom du har noen allergier eller perferanser vi skal ta hensyn til.</p>
       </div>
     </div>
   </div>
@@ -462,12 +478,12 @@
         <div class="tl-line"></div>
         <div class="tl-content">
           <h3>Vielse</h3> 
-          <h4>
+          <p>
             <a href="https://www.google.com/maps/place/T%C3%B8nsberg+Domkirke/@59.2691986,10.4019964,941m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4646b7142460b187:0x9e15fec915abed08!8m2!3d59.2691986!4d10.404566!16s%2Fm%2F0hr442p?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D">
               Tønsberg Domkirke, Storgaten 43
             </a>
-          </h4>
-          <p>Lurt å komme tidlig slik at alle finner en plass før vielsen starter.</p>
+          </p>
+          <p>Det er lurt å komme tidlig slik at alle finner en plass før vielsen starter.</p>
         </div>
       </div>
       <div class="tl-item reveal">
@@ -475,11 +491,9 @@
         <div class="tl-line"></div>
         <div class="tl-content">
           <h3>Fotografering</h3>
-          <h4>
-            <a href="https://www.google.com/maps/place/T%C3%B8nsberg+Domkirke/@59.2691986,10.4019964,941m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4646b7142460b187:0x9e15fec915abed08!8m2!3d59.2691986!4d10.404566!16s%2Fm%2F0hr442p?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D">
+          <p><a href="https://www.google.com/maps/place/T%C3%B8nsberg+Domkirke/@59.2691986,10.4019964,941m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4646b7142460b187:0x9e15fec915abed08!8m2!3d59.2691986!4d10.404566!16s%2Fm%2F0hr442p?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D">
               Tønsberg Domkirke, Storgaten 43
-            </a>
-          </h4>
+          </a></p>
           <p>Etter vielsen blir det bilder ved kirketrappen. Brudeparet blir hentet og kjørt til fotogragering.</p>
         </div>
       </div>
@@ -487,25 +501,23 @@
         <div class="tl-time">15:30</div>
         <div class="tl-line"></div>
         <div class="tl-content">
-          <h3>Aperitif</h3>
-          <h4>
-            <a href="https://www.google.com/maps/place/Messehuset/@59.2811282,10.4089777,470m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4646b717dd7d1f4d:0xa6e45c7e68d932a6!8m2!3d59.2811282!4d10.4115473!16s%2Fg%2F1v4k533y?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D">
-              Messehuset, Stenmalveien 32
-            </a>
-          </h4>
+          <h3>Aperitiff</h3>
+          <p><a href="https://www.google.com/maps/place/Messehuset/@59.2811282,10.4089777,470m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4646b717dd7d1f4d:0xa6e45c7e68d932a6!8m2!3d59.2811282!4d10.4115473!16s%2Fg%2F1v4k533y?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D">
+          Messehuset, Stenmalveien 32
+          </a></p>
           <p>Det blir aperitif utenfor Messehuset. Her blir det servert småmat og noe i glasset. Det blir leker og mingling.</p>
         </div>
       </div>
       <div class="tl-item reveal">
-        <div class="tl-time">17:30</div>
+        <div class="tl-time">17:00</div>
         <div class="tl-line"></div>
         <div class="tl-content">
           <h3>Middag</h3>
-          <h4>
+          <p>
             <a href="https://www.google.com/maps/place/Messehuset/@59.2811282,10.4089777,470m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4646b717dd7d1f4d:0xa6e45c7e68d932a6!8m2!3d59.2811282!4d10.4115473!16s%2Fg%2F1v4k533y?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D">
               Messehuset, Stenmalveien 32
             </a>
-          </h4>
+          </p>
           <p>Det blir middag og taler inne på Messehuset. Etter middagen blir det kaker og fest.</p>
         </div>
       </div>
@@ -520,16 +532,16 @@
       <p class="eyebrow"></p>
       <h2>Praktisk info</h2>
     </div>
-
     <div class="reveal">
       <p class="registry-copy">
         <strong>Vil du si noe?</strong><br>
-        Ta kontakt med vår toastmaster K på XXX XX XXX.
+        Ta kontakt med vår toastmaster Katrine på tlf. 902 31 941.
       </p>
-
       <p class="registry-copy">
         <strong>Kleskode</strong><br>
-        Dress og lange kjoler. Bunad er også hjertlig velkommen!
+        Dress og lange kjoler. 
+        <br>
+        Bunad er også hjertlig velkommen!
       </p>
     </div>
   </div>
@@ -542,14 +554,15 @@
       <!-- <p class="eyebrow">Komme seg hit</p> -->
       <h2>Reise og overnatting</h2>
     </div>
-    <p class="registry-copy reveal">Tønsberg domkirke ligger midt i Tønsberg sentrum, og Messehuset 1,5km fra domkirken (29 minutters gange). 
-    <p class="registry-copy reveal">Fra kirken til messehuset kan man gå til Midtløkken (13 minutters gange) og ta bussen til Gressbanen; Buss 51 mot Eik-Prestelia eller Buss 2 mot Horten-Holmestrand. Bussen går ca. hvert 10. minutt.</p>
+    <p class="registry-copy reveal">Tønsberg domkirke ligger midt i Tønsberg sentrum, og Messehuset ca. 1,5km fra domkirken (29 minutters gange). 
+    <p class="registry-copy reveal">Fra kirken til messehuset kan man gå til Midtløkken (13 minutters gange) og ta bussen til Gressbanen; Buss 51 mot Eik-Prestelia eller Buss 2 mot Horten-Holmestrand. 
+    Bussen går ca. hvert 10. minutt.</p>
     <p class="registry-copy reveal">
       <strong>Her er noen forslag til overnattingssteder i Tønsberg sentrum.</strong><br>
     </p>
 
   <div class="travel-grid reveal">
-    <a href="https://www.strawberryhotels.com/hotels/norway/tonsberg/quality-hotel-tonsberg/"
+    <a href="https://app.mews.com/distributor/8dada58b-463c-4d2b-96d5-b122006cea6a?mewsAvailabilityBlockId=845cdb18-978f-4a46-b8e0-b4d300aa9b17&mewsStart=2027-06-18&mewsEnd=2027-06-20"
       class="travel-card">
       <h3>Quality Hotel Tønsberg</h3>
       <p>Ollebukta 3, 3126 Tønsberg</p>
@@ -582,22 +595,41 @@
 <section class="section-ivory" id="gaver">
   <div class="container">
     <div class="section-head reveal">
-      <!-- <p class="eyebrow">Med takknemlighet</p> -->
       <h2>Gaveønsker</h2>
     </div>
-    <p class="registry-copy reveal">Det at du kommer og feirer dagen sammen med oss, betyr mer enn noen gave. For deg som likevel ønsker å gi noe, setter vi stor pris på et bidrag til vår bryllupsreise.</p>
-    <p class="registry-copy reveal">Vår bryllupsreise går til Vico Equense, ikke langt fra Amalfikysten i Italia. Vi drømmer om godt vær, soling, bading vinsmaking, kaffekurs og masse is.</p>
-    <p class="registry-copy reveal">For andre gaveønsker, kontakt brudeparet.</p>
-    <figure class="gift-photo reveal">
-      <img src="vico-equense.jpg" alt="Vico Equense ved kysten sør for Napoli" onerror="this.closest('figure').style.display='none'">
-    </figure>
+
+    <p class="registry-copy reveal">
+      Det at du kommer og feirer dagen sammen med oss, betyr mer enn noen gave.
+      For deg som likevel ønsker å gi noe, setter vi stor pris på et bidrag til vår bryllupsreise.
+    </p>
+
+    <p class="registry-copy reveal">
+      Bryllupsreisen går til Vico Equense, Italia, ikke langt fra Amalfikysten.
+      Vi drømmer om godt vær, soling, bading, vinsmaking, kaffekurs og masse is.
+    </p>
+
+    <p class="registry-copy reveal">
+      For andre gaveønsker, kontakt brudeparet.
+    </p>
+
+    <div class="spleis-container">
+      <iframe
+        src="https://www.spleis.no/project/526616/embed"
+        width="350"
+        height="510"
+        frameborder="0"
+        title="Bidrag til bryllupsreisen">
+      </iframe>
+    </div>
+
+  </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
   <div class="monogram">J&amp;N</div>
   <p class="names">Jenny &amp; Nikolai</p>
-  <p class="thanks">Vi gleder oss til å feire denne dagen med dere som betyr mest for oss. Tusen takk for at dere er en del av historien vår.</p>
+  <!-- <p class="thanks">Vi gleder oss til å feire denne dagen med dere som betyr mest for oss. Tusen takk for at dere er en del av historien vår.</p> -->
   <p class="fine">19. juni 2027 · Tønsberg domkirke · Messehuset, Tønsberg</p>
 </footer>
 
